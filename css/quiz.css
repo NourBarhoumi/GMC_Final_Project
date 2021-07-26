@@ -62,3 +62,13 @@ header .img1 {
 h1 {
     margin-bottom: 20px;
 }
+
+.foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 70px;
+  margin-top: 10px;
+  padding-top: 15px;
+}
