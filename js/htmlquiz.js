@@ -22,7 +22,7 @@ finish.addEventListener("click",function(){
 if(!document.getElementsByClassName("progress").length){
  var pourc=document.createElement("div")
     pourc.setAttribute("class", "progress")
-    var main=document.querySelector("main")
+    var main=document.querySelector(".quiz")
     var prog=document.createElement("div")
     prog.setAttribute("class", "progress-bar")
     prog.setAttribute("role", "progressbar")
